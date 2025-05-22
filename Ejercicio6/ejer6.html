@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <h1>Sentencias y comentarios en javascript</h1>
+
+    <p id="demo"></p>
+
+    <script>
+        let x, y, z;
+        x = 5;
+        y = 10;
+        z = x + y;
+
+        //Impresion por pantalla del valor de Z
+        document.getElementById("demo").innerHTML = "El valor de \'z\' es: " + z + ".";
+
+        //impresion por pantalla usando consola
+        console.log("El valor de \'z\' es: " + x + ".");
+        console.log("x: ", x, "y: ", y, "z:", z);
+        console.log(`La suma de ${x} y ${y} es ${z}.`); //alt + 96
+
+        /*COMENTARIOS
+        MULTILINEA*/
+    </script>
+</body>
+</html>

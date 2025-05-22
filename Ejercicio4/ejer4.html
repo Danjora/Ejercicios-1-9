@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    
+    <h2>Salido por pantalla y pruebas</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("demo").innerHTML= "Hola mundo con innerHTML";
+        document.write("hola mundo con write");
+        //window.alert("hola mundo con Alert");
+        console.log("hola mundo con console.log");
+        //Ejemplo salida por pantalla
+        //alert("Ejemplo con alert: " + 5 + 2);
+        document.write("<br><br>Ejemplo con wirte: " + 5 + 2);
+        // Ejemplo con console.log
+        const myObjet = {nombre: "Alex", apellido: "Acuna"};
+        console.log("Imprime objeto: ", myObjet);
+        console.log("Nombre: ", myObjet.nombre);
+        console.log("Apellido: ", myObjet.apellido);
+        //Ejemplo con array
+        const myArray = ["Uvas", "Fresa", "Platano"];
+        console.log("Imprime array: ", myArray);
+        console.log("Fruta: ", myArray[1]);
+    </script>
+</body>
+</html>

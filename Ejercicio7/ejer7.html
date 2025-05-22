@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+</head>
+<body>
+    <h1>Operaciones aritmeticas</h1>
+
+    <p id="suma"></p>
+    <p id="resta"></p>
+    <p id="multiplicacion"></p>
+    <p id="division"></p>
+    <p id="modulo"></p>
+    <p id="incremento"></p>
+    <p id="decremento"></p>
+
+    <script>
+        //Suma
+        let suma = 100 + 50;
+        console.log(suma);
+        document.getElementById("suma").innerHTML="la suma de 100 y 50 es: "+ suma;
+        //Resta
+        let resta = 100 - 50;
+        console.log(resta);
+        document.getElementById("resta").innerHTML="la resta de 100 y 50 es: "+ resta;
+
+        //Multiplicacion
+        let multiplicacion = 7 * 5;
+        console.log(multiplicacion);
+        document.getElementById("multiplicacion").innerHTML="la multiplicacion de 7 y 5 es: "+ multiplicacion;
+
+        //Division
+        let division = 100 / 5;
+        console.log(division);
+        document.getElementById("division").innerHTML="la division de 100 y 5 es: "+ division;
+
+        //Modulo (obtenemos el resto de una division)
+        let modulo = 23 % 3;
+        console.log(modulo);
+        document.getElementById("modulo").innerHTML="el modulo de 23 y 3 es: "+ modulo;
+
+        //Incremento
+        let incremento = 5;
+        incremento++;
+        console.log(incremento);
+        document.getElementById("incremento").innerHTML="el incremento de 5 es: "+ incremento;
+
+        //Decremento
+        let decremento = 5;
+        decremento--;
+        console.log(decremento);
+        document.getElementById("decremento").innerHTML="el decremento de 5 es: "+ decremento;
+       
+        decremento--;
+        console.log(decremento);
+        document.getElementById("decremento").innerHTML +="<br>y luego decremento otra vez: "+ decremento;
+
+        //Otros ejemplos
+        let a=5, b=3;
+        console.log("a + b = "+(a + b));
+        console.log("a - b = "+(a - b));
+        console.log("a * b = "+(a * b));
+        console.log("a / b = "+(a / b));
+        console.log("a % b = "+(a % b));
+        console.log("incremento de '\a'\ en 1 = "+(++a));
+        console.log("decremento de '\a'\ en 1 = "+(--a));
+
+        //Exponente
+        let x = 5 ** 3;
+        console.log("El exponente de 5 a la 3 es: " + x);
+
+
+    </script>
+
+</body>
+</html>
